@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustemChooseServiceViewController" customModule="StopHere" customModuleProvider="target">
+            <connections>
+                <outlet property="buttonsBackgroundView" destination="WLA-aJ-Y1Y" id="gHd-Nn-3NF"/>
+                <outlet property="custemView" destination="EgF-uf-RXG" id="uwb-NR-M5b"/>
+                <outlet property="view" destination="2yr-rD-PSF" id="Wyk-sd-mNP"/>
+                <outlet property="viewHeight" destination="SfF-qa-3Vv" id="y5B-z7-T7q"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="2yr-rD-PSF">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EgF-uf-RXG">
+                    <rect key="frame" x="67.5" y="253.5" width="240" height="160"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请点击选择频道" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qnk-jj-FSH">
+                            <rect key="frame" x="59" y="10" width="121.5" height="21"/>
+                            <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X2G-Jw-MSc">
+                            <rect key="frame" x="0.0" y="41" width="240" height="1"/>
+                            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="v5c-Lr-jfG"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WLA-aJ-Y1Y">
+                            <rect key="frame" x="0.0" y="42" width="240" height="118"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="0Z9-b2-Ew9"/>
+                        <constraint firstItem="Qnk-jj-FSH" firstAttribute="top" secondItem="EgF-uf-RXG" secondAttribute="top" constant="10" id="Bsu-Yo-UqA"/>
+                        <constraint firstItem="X2G-Jw-MSc" firstAttribute="leading" secondItem="EgF-uf-RXG" secondAttribute="leading" id="DpN-eK-G1M"/>
+                        <constraint firstAttribute="trailing" secondItem="X2G-Jw-MSc" secondAttribute="trailing" id="JHN-bL-7GK"/>
+                        <constraint firstAttribute="bottom" secondItem="WLA-aJ-Y1Y" secondAttribute="bottom" id="KrM-TT-5rM"/>
+                        <constraint firstAttribute="height" constant="160" id="SfF-qa-3Vv"/>
+                        <constraint firstAttribute="trailing" secondItem="WLA-aJ-Y1Y" secondAttribute="trailing" id="Zbc-W4-ZDO"/>
+                        <constraint firstItem="X2G-Jw-MSc" firstAttribute="top" secondItem="Qnk-jj-FSH" secondAttribute="bottom" constant="10" id="cY3-yS-abx"/>
+                        <constraint firstItem="WLA-aJ-Y1Y" firstAttribute="leading" secondItem="EgF-uf-RXG" secondAttribute="leading" id="emh-Hs-BB2"/>
+                        <constraint firstItem="Qnk-jj-FSH" firstAttribute="centerX" secondItem="EgF-uf-RXG" secondAttribute="centerX" id="qgx-lj-eDY"/>
+                        <constraint firstItem="WLA-aJ-Y1Y" firstAttribute="top" secondItem="Qnk-jj-FSH" secondAttribute="bottom" constant="11" id="yfv-Eo-f72"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="EgF-uf-RXG" firstAttribute="centerX" secondItem="2yr-rD-PSF" secondAttribute="centerX" id="X2P-sy-GW8"/>
+                <constraint firstItem="EgF-uf-RXG" firstAttribute="centerY" secondItem="2yr-rD-PSF" secondAttribute="centerY" id="zkM-YG-iW6"/>
+            </constraints>
+            <connections>
+                <outletCollection property="gestureRecognizers" destination="noq-wz-LUo" appends="YES" id="Amz-eP-Z2K"/>
+            </connections>
+            <point key="canvasLocation" x="-553" y="23"/>
+        </view>
+        <tapGestureRecognizer id="noq-wz-LUo">
+            <connections>
+                <action selector="tapAction:" destination="-1" id="gVS-wX-7h2"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+</document>

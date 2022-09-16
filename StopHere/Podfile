@@ -1,0 +1,80 @@
+platform :ios, '9.0'
+
+inhibit_all_warnings!
+
+use_frameworks!
+
+target 'StopHere' do
+    
+    pod 'SVProgressHUD'
+    # 提示框
+    pod 'SCLAlertView'
+#
+#    # 高德地图
+#    pod 'AMap2DMap-NO-IDFA'
+#    pod 'AMapSearch-NO-IDFA'
+#    pod 'AMapLocation-NO-IDFA'
+##    pod 'AMapNavi-NO-IDFA'
+#
+#    # 数据库
+    pod 'RealmSwift'
+#
+    # rx
+    pod 'RxCocoa'
+    pod 'RxSwift'
+#
+#    # 异步加载图片
+#    pod 'Kingfisher'
+#    # 网络
+    pod 'Moya/RxSwift'
+#    # JSON
+    pod 'SwiftyJSON'
+#
+    # 钥匙串
+#    pod 'SAMKeychain'
+#
+#    # 键盘收起
+    pod 'IQKeyboardManagerSwift'
+#    # 下拉刷新
+#    pod 'MJRefresh'
+
+    # 蓝牙连接
+#    pod 'BluetoothKit'
+
+    pod 'ObjectMapper'
+    
+    # 主模块(必须)
+    pod 'ShareSDK3'
+    # Mob 公共库(必须)
+    pod 'MOBFoundation'
+    
+    # UI模块
+    pod 'ShareSDK3/ShareSDKUI'
+
+    # 平台SDK模块
+    pod 'ShareSDK3/ShareSDKPlatforms/WeChat'
+    pod 'ShareSDK3/ShareSDKPlatforms/QQ'
+
+    pod 'MJRefresh'
+    
+    pod 'CryptoSwift'
+    
+    pod 'swiftScan'
+    
+    pod 'iOSDFULibrary'
+    
+    #异常上报
+    pod 'BuglyHotfix'
+
+    # 颜色
+#    pod 'DynamicColor'
+
+#    pod
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    puts #{target.name}
+  end
+end
+

@@ -1,0 +1,113 @@
+PODS:
+  - Alamofire (4.9.1)
+  - BuglyHotfix (2.1.0):
+    - BuglyHotfix/Core (= 2.1.0)
+  - BuglyHotfix/Core (2.1.0)
+  - CryptoSwift (1.5.1)
+  - iOSDFULibrary (4.13.0):
+    - ZIPFoundation (= 0.9.11)
+  - IQKeyboardManagerSwift (6.5.10)
+  - MJRefresh (3.7.5)
+  - MOBFoundation (3.2.36)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Moya/RxSwift (13.0.1):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - ObjectMapper (4.2.0)
+  - Realm (10.28.4):
+    - Realm/Headers (= 10.28.4)
+  - Realm/Headers (10.28.4)
+  - RealmSwift (10.28.4):
+    - Realm (= 10.28.4)
+  - Result (4.1.0)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxSwift (4.5.0)
+  - SCLAlertView (0.8)
+  - ShareSDK3 (4.0.4):
+    - MOBFoundation
+    - ShareSDK3/ShareSDK (= 4.0.4)
+  - ShareSDK3/ShareSDK (4.0.4):
+    - MOBFoundation
+  - ShareSDK3/ShareSDKPlatforms/QQ (4.0.4):
+    - MOBFoundation
+  - ShareSDK3/ShareSDKPlatforms/WeChat (4.0.4):
+    - MOBFoundation
+  - ShareSDK3/ShareSDKUI (4.0.4):
+    - MOBFoundation
+  - SVProgressHUD (2.2.5)
+  - swiftScan (1.2.1)
+  - SwiftyJSON (5.0.1)
+  - ZIPFoundation (0.9.11)
+
+DEPENDENCIES:
+  - BuglyHotfix
+  - CryptoSwift
+  - iOSDFULibrary
+  - IQKeyboardManagerSwift
+  - MJRefresh
+  - MOBFoundation
+  - Moya/RxSwift
+  - ObjectMapper
+  - RealmSwift
+  - RxCocoa
+  - RxSwift
+  - SCLAlertView
+  - ShareSDK3
+  - ShareSDK3/ShareSDKPlatforms/QQ
+  - ShareSDK3/ShareSDKPlatforms/WeChat
+  - ShareSDK3/ShareSDKUI
+  - SVProgressHUD
+  - swiftScan
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BuglyHotfix
+    - CryptoSwift
+    - iOSDFULibrary
+    - IQKeyboardManagerSwift
+    - MJRefresh
+    - MOBFoundation
+    - Moya
+    - ObjectMapper
+    - Realm
+    - RealmSwift
+    - Result
+    - RxCocoa
+    - RxSwift
+    - SCLAlertView
+    - ShareSDK3
+    - SVProgressHUD
+    - swiftScan
+    - SwiftyJSON
+    - ZIPFoundation
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  BuglyHotfix: 99a969c77da1baae823a7537acb16e4f1985a5f5
+  CryptoSwift: c4f2debceb38bf44c80659afe009f71e23e4a082
+  iOSDFULibrary: 3b9de67ed4bfb901b5f09c2fea843f65e152612d
+  IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  MOBFoundation: 78ad4264f436b3d147375ab7fdb8088b9e22ca5d
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  Realm: 8ab5176275b4123e84383b33385d47f09507acac
+  RealmSwift: 0851105ca8c6d5722678c98e4d4e53637d1704c8
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  ShareSDK3: 75b57bab0cbe3119e281c7668eaad9d48adf3fde
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  swiftScan: 0849e7d7c1c641384767a573ee8cb90b88d1ddd9
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  ZIPFoundation: b1f0de4eed33e74a676f76e12559ab6b75990197
+
+PODFILE CHECKSUM: bd0b22b1bb873ef3b2eff47860e21139064a0a5b
+
+COCOAPODS: 1.11.2
